@@ -7,7 +7,6 @@ def Solution(K, arr):
             result.append(windowSum/K)
             windowSum -= arr[windowStart]
             windowStart += 1
-
     return result
 
 res = Solution(5,[1, 3, 2, 6, -1, 4, 1, 8, 2])
